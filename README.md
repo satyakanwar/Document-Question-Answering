@@ -2,8 +2,7 @@
 An end-to-end OCR-free pipeline using Qwen3-VL that answers questions from both single-page and multi-page document images through prompt engineering and content-based page selection.
 
 
-
-### For single Page docvqa file
+### For single Page docvqa file 
   specific_type_for_single_page.py
 You can choose the type of document you want to run inference on by changing the `TARGET_TYPE` variable in the code.
 
@@ -24,7 +23,7 @@ TARGET_TYPE = "layout"
 
 
 
-### For multipage docvqa
+#For multipage docvqa
 multipage_chunks.py
 
 For the Multi-Page DocVQA dataset, inference can be executed in smaller chunks instead of processing the entire dataset at once.  
