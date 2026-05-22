@@ -23,7 +23,7 @@ TARGET_TYPE = "layout"
 # ==============================
 
 
-
+### For single Page docvqa file
 ### Processing MP-DocVQA in Chunks
 multipage_chunks.py
 
